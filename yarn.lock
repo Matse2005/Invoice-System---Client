@@ -724,7 +724,7 @@ cli-truncate@^3.1.0:
     string-width "^5.0.0"
 
 "client@file:":
-  version "1.0.5"
+  version "1.0.6"
   resolved "file:"
   dependencies:
     client "file:"
