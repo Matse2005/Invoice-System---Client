@@ -1,18 +1,14 @@
 {
-  "name": "client",
-  "productName": "Simpele Facturen",
-  "version": "1.0.6",
+  "name": "client_new",
+  "productName": "client_new",
+  "version": "1.0.0",
   "description": "My Electron application description",
-  "main": "src/index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Matse2005/InvoiceSystem-Client.git"
-  },
+  "main": ".vite/build/main.js",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
-    "publish": "env-cmd electron-forge publish",
+    "publish": "electron-forge publish",
     "lint": "echo \"No linting configured\""
   },
   "devDependencies": {
@@ -23,19 +19,20 @@
     "@electron-forge/maker-zip": "^7.4.0",
     "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
     "@electron-forge/plugin-fuses": "^7.4.0",
+    "@electron-forge/plugin-vite": "^7.4.0",
     "@electron/fuses": "^1.8.0",
-    "electron": "31.3.1"
+    "electron": "31.3.1",
+    "vite": "^5.4.0"
   },
   "keywords": [],
   "author": {
     "name": "MatseVH",
-    "email": "matse@vanhorebeek.be"
+    "email": "49431416+Matse2005@users.noreply.github.com"
   },
   "license": "MIT",
   "dependencies": {
-    "client": "file:",
+    "client_new": "file:",
     "electron-squirrel-startup": "^1.0.1",
-    "env-cmd": "^10.1.0",
     "update-electron-app": "^3.0.0"
   }
 }
