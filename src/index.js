@@ -3,7 +3,7 @@ const path = require("node:path");
 const { updateElectronApp } = require("update-electron-app");
 updateElectronApp({
   notifyUser: true,
-  updateInterval: "1 minute",
+  updateInterval: "5 minutes",
 });
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
