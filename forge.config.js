@@ -1,10 +1,5 @@
 const { FusesPlugin } = require("@electron-forge/plugin-fuses");
 const { FuseV1Options, FuseVersion } = require("@electron/fuses");
-const { updateElectronApp } = require("update-electron-app");
-updateElectronApp({
-  notifyUser: true,
-  updateInterval: "5 minutes",
-});
 
 module.exports = {
   packagerConfig: {
